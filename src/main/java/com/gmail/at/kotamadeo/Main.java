@@ -18,6 +18,7 @@ public class Main {
         logger.info("Успешно создали директорию temp в директории Games");
         Path src = createSrc();
         Path resources = createResources();
+        createSavegames();
         Path main = createMain(src);
         createTest(src);
         createMainJava(main);
@@ -63,6 +64,23 @@ public class Main {
             logger.fatal(Arrays.toString(e.getStackTrace()));
         }
         return resources;
+    }
+
+    private static void createSavegames() {
+        String targetDirectory = "\\Module_1-Stream_API-Task_1.3.1-Save\\Games\\savegames";
+        Path savegames = null;
+        logger.warn("Пытаемся создать директорию savegames в директории Games");
+        try {
+            if (Files.exists(Paths.get(targetDirectory))) {
+                logger.info("Директория savegames в директории Games уже существует");
+            } else {
+                savegames = Files.createDirectory(Paths.get(targetDirectory));
+                logger.info("Успешно создали директорию savegames в директории Games");
+            }
+        } catch (IOException e) {
+            logger.fatal(e.getMessage());
+            logger.fatal(Arrays.toString(e.getStackTrace()));
+        }
     }
 
     private static Path createMain(Path path) {

@@ -1,14 +1,14 @@
-### Игнорирование folder ###
+### РРіРЅРѕСЂРёСЂРѕРІР°РЅРёРµ folder ###
 
-### Игнорирование .properties ###
+### РРіРЅРѕСЂРёСЂРѕРІР°РЅРёРµ .properties ###
 *.properties
 
-### Игнорирование системных файлов | System files ignore ###
+### РРіРЅРѕСЂРёСЂРѕРІР°РЅРёРµ СЃРёСЃС‚РµРјРЅС‹С… С„Р°Р№Р»РѕРІ | System files ignore ###
 Thumbs.db*
 .DS_Store*
 HELP.md
 
-### Игнорирование IDE STS ###
+### РРіРЅРѕСЂРёСЂРѕРІР°РЅРёРµ IDE STS ###
 .apt_generated
 .classpath
 .factorypath
@@ -34,7 +34,7 @@ out/
 ### VS Code ###
 .vscode/
 
-### Игнорирование Maven | Maven Ignore ###
+### РРіРЅРѕСЂРёСЂРѕРІР°РЅРёРµ Maven | Maven Ignore ###
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -54,7 +54,7 @@ buildNumber.properties
 .classpath
 
 
-### Игнорирование Python | Python Ignore ###
+### РРіРЅРѕСЂРёСЂРѕРІР°РЅРёРµ Python | Python Ignore ###
  Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -208,7 +208,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-### Игнорирование Kotlin | Kotlin Ignore ###
+### РРіРЅРѕСЂРёСЂРѕРІР°РЅРёРµ Kotlin | Kotlin Ignore ###
 .DS_Store
 .idea/shelf
 /confluence/target
@@ -285,7 +285,7 @@ outTmp/
 /kotlin-native/dist
 kotlin-ide/
 
-### Игнорирование Java | Java Ignore ###
+### РРіРЅРѕСЂРёСЂРѕРІР°РЅРёРµ Java | Java Ignore ###
 # Compiled class file
 *.class
 
@@ -311,7 +311,7 @@ kotlin-ide/
 hs_err_pid*
 replay_pid*
 
-### Игнорирование Gradle | Gradle Ignore ###
+### РРіРЅРѕСЂРёСЂРѕРІР°РЅРёРµ Gradle | Gradle Ignore ###
 .gradle
 **/build/
 !src/**/build/
